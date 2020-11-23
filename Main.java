@@ -15,9 +15,9 @@ class Main {
   System.out.print("What type of animal was it? ");
    animalType = input.nextLine();
   System.out.print("How many did you see? ");
-    intalAnimal = input.nextInt();
+    intalAnimal =  Integer.parseInt(input.nextLine());
   System.out.print("What year do you want to see the project population for? ");
-    finalYear = input.nextInt();
+    finalYear =  Integer.parseInt(input.nextLine());
   
   //MATH
   yearDiff = finalYear - intalYear;
@@ -30,3 +30,5 @@ class Main {
   System.out.println("Projected Population: "+finalAnimal);
   }
 }
+
+
